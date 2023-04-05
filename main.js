@@ -1,6 +1,6 @@
-document.body.addEventListener( "click" , showcolor );
+document.addEventListener( "click" , showcolor );
 
-function showcolor( e )
+function showcolor()
 {
     document.body.style.backgroundColor = "red";
 }
